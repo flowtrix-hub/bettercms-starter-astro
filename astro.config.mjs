@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
-import bettercms from "@betttercms/astro";
+import bettercms from "@bettercms-ai/astro";
 
 // Static site: BetterCMS hosting serves the build as files, and the deploy Action writes
 // bcms-content.json BEFORE the build (no API key at build time). We read all content from that

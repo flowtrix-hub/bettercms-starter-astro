@@ -1,2 +1,2 @@
 /// <reference types="astro/client" />
-/// <reference types="@betttercms/astro/env" />
+/// <reference types="@bettercms-ai/astro/env" />

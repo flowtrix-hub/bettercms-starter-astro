@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import type { ContentBlock } from "@betttercms/types";
-import type { DeliveryForm } from "@betttercms/sdk";
+import type { ContentBlock } from "@bettercms-ai/types";
+import type { DeliveryForm } from "@bettercms-ai/sdk";
 
 /**
  * Read the deploy Action's build snapshot (`bcms-content.json`): entries grouped under
